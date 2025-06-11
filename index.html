@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会计专业个人主页</title>
+    <style>
+        :root {
+            --primary: #2c5e92;
+            --secondary: #f8f9fa;
+            --accent: #28a745;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary), #1a3a5f);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-weight: 300;
+            margin-top: 10px;
+        }
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill {
+            background: var(--secondary);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #dee2e6;
+        }
+        .goals li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        .goals li:before {
+            content: "✓";
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>米科诺</h1>
+        <p class="subtitle">会计学专业大一学生</p>
+    </header>
+
+    <section class="about">
+        <h2>关于我</h2>
+        <p>我是嘉兴大学会计学专业的大一学生，对财务分析和企业财务管理充满热情。我注重细节，擅长数据分析，喜欢探索数字背后的商业故事。</p>
+        <p>目前正在学习基础会计原理和商业数学，积极参与校园会计社团活动，希望建立扎实的专业基础。</p>
+    </section>
+
+    <section class="skills">
+        <h2>专业技能</h2>
+        <div class="skills-container">
+            <div class="skill">会计原理</div>
+            <div class="skill">Excel数据分析</div>
+            <div class="skill">财务记账</div>
+            <div class="skill">财务报表阅读</div>
+            <div class="skill">税法基础</div>
+            <div class="skill">商业数学</div>
+        </div>
+    </section>
+
+    <section class="goals">
+        <h2>学习目标</h2>
+        <ul class="goals">
+            <li>掌握中级财务会计和成本会计核心知识</li>
+            <li>学习使用财务软件（如用友、金蝶）</li>
+            <li>通过初级会计职称考试</li>
+            <li>提升商业数据分析能力</li>
+            <li>参与企业财务实习项目</li>
+        </ul>
+    </section>
+
+    <section class="interests">
+        <h2>专业兴趣</h2>
+        <p>我对企业财务管理和审计领域特别感兴趣，尤其关注：</p>
+        <ul>
+            <li>数字化转型对会计行业的影响</li>
+            <li>可持续发展和ESG报告</li>
+            <li>中小企业财务健康管理</li>
+            <li>税务筹划策略</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="contact">
+            <a href="mailto:502140012@qq.com">邮箱联系</a> | 
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+        <p>© 2025 米科诺 - 会计专业个人主页</p>
+    </footer>
+</body>
+</html>
